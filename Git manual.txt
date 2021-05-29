@@ -14,3 +14,6 @@
 
 	** 주의사항 **
 	push 하기전에 pull 할것	
+
+	** 링크 **
+	https://www.youtube.com/watch?v=tC8Xj_Bf8Fw
