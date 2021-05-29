@@ -25,7 +25,7 @@ void CManager::Update(void)
 void CManager::Render(void)
 {
 	m_pPlayer->Render();
-	//m_pItems[0]->Render();
+	m_pItems[0]->Render();
 	m_pFloor->Render();
 }
 
