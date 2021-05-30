@@ -24,7 +24,8 @@
     <ProjectGuid>{94105a5f-666a-4c3d-bd36-d1e298682918}</ProjectGuid>
     <RootNamespace>SpriteTool</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName> </ProjectName>
+    <ProjectName>
+    </ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,11 +141,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CApp.cpp" />
     <ClCompile Include="CDevice.cpp" />
+    <ClCompile Include="CWnd.cpp" />
     <ClCompile Include="SpriteTool.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CApp.h" />
     <ClInclude Include="CDevice.h" />
+    <ClInclude Include="CWnd.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SpriteTool.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

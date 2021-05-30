@@ -2,8 +2,6 @@
 #include <tchar.h>
 #include <d2d1.h>
 #include <wincodec.h>
-#pragma comment( lib, "d2d1.lib")
-#pragma comment(lib, "windowscodecs.lib")
 #include "CPlayer.h"
 
 // 컴파일 : cpp -> obj 파일로 만드는것

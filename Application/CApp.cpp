@@ -33,7 +33,7 @@ bool CApp::Initialize(HINSTANCE _hInstance, int _nCmdShow, const TCHAR* _lpcWind
 	wcex.hInstance = _hInstance;
 	wcex.hIcon = LoadIcon(_hInstance, IDI_APPLICATION);
 	wcex.hCursor = LoadCursor(NULL, IDC_ARROW);
-	wcex.hbrBackground = (HBRUSH)GetStockObject(WHITE_BRUSH);//(COLOR_WINDOW + 1);
+	wcex.hbrBackground = (HBRUSH)GetStockObject(WHITE_BRUSH); //(COLOR_WINDOW + 1);
 	wcex.lpszMenuName = NULL;
 	wcex.lpszClassName = _lpcWindowClassName;
 	wcex.hIconSm = LoadIcon(wcex.hInstance, IDI_APPLICATION);
@@ -151,12 +151,13 @@ LRESULT CApp::MessageProc(HWND _hWnd, UINT uMessage, WPARAM wParam, LPARAM lPara
 	case WM_PAINT:
 		hdc = BeginPaint(_hWnd, &ps);
 		EndPaint(_hWnd, &ps);
-		break;
+		break;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 
 	case WM_DESTROY:
 		Cleanup();
 		PostQuitMessage(0);
 		break;
+
 	default:
 		return DefWindowProc(_hWnd, uMessage, wParam, lParam);
 		break;

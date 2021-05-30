@@ -1,8 +1,5 @@
 #include "CDevice.h"
 
-#pragma comment( lib, "d2d1.lib")
-#pragma comment(lib, "windowscodecs.lib")
-
 CDevice   g_device;
 
 CDevice::CDevice()

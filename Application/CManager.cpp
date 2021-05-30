@@ -85,5 +85,5 @@ void CManager::ConflictCheck(void)
 
 	// 처음에 item의 Left로만 충돌체크를 해보려고했는데
 	// item의 left가 player의 왼쪽에 와있을때 item의 right를 체크하지않으면 안되서
-	// item의 left, right 동시에 player의 y범위가 일치하는지 불필요하게 많이 확인하는것같다..
+	// item의 left, right 동시에 player의 y범위가 일치하는지 불필요하게 많이 확인하는것같다.
 }

@@ -1,16 +1,2 @@
-﻿  Application.cpp
-  CApp.cpp
-  CDevice.cpp
-  CFrameRate.cpp
-D:\GPM Class\git\Application\CFrameRate.cpp(54,38): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  CBackground.cpp
-  CItems.cpp
-D:\GPM Class\git\Application\CItems.cpp(9,19): warning C4244: '초기화 중': 'float'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  CManager.cpp
-  CMouse.cpp
-D:\GPM Class\git\Application\CMouse.cpp(9,52): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  CFloor.cpp
-  CPlayer.cpp
-  CSprite.cpp
-  코드를 생성하고 있습니다...
+﻿  CDevice.cpp
   Application.vcxproj -> D:\GPM Class\git\Application\x64\Debug\Application.exe
