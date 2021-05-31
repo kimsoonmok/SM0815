@@ -31,11 +31,11 @@ bool CApp::Initialize(HINSTANCE _hInstance, int _nCmdShow)
 	m_pWnd->Render(m_hWnd[1]);
 
 	return true;
-}
+		}
 
 void CApp::Cleanup(void)
 {
-	g_device.CleanupDevice();
+	//g_device.CleanupDevice();
 }
 
 int CApp::Run(void)
